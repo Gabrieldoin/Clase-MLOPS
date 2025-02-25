@@ -17,3 +17,7 @@ def create_user(user: User):
 @app.get("/users/")
 def get_users():
     return {"users": users}
+
+@app.get("/users-nuevo/")
+def get_users():
+    return {"users_2": users}
